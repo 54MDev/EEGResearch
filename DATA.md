@@ -11,14 +11,15 @@
 | Earlier sample audit script (OCD/HC matching, file-name EC/EO check) | `C:\Users\Sam\Downloads\tdbrain_sample_audit.py` |
 
 ## Layout
-`sub-<id>/ses-1/sub-<id>_ses-1_task-restEC_eeg.bdf` (plus `_channels.tsv`, `_eeg.json`).
+`sub-<id>/ses-1/eeg/sub-<id>_ses-1_task-restEC_eeg.bdf` (plus `_channels.tsv`, `_eeg.json` in the same `eeg/` folder).
 Eyes-closed files = `task-restEC`. Other tasks: `restEO`, `oddball` (not used).
 
 ## Counts found on disk
 - 1300 subject folders; 2940 `.bdf` files total (1391 restEC, 1387 restEO, 162 oddball).
 - Unzipped size is ~19 GB (zip 15.5 GB). CLAUDE.md previously said ~99 GB; corrected.
-- The 74-subject sample (37 OCD + 37 matched HC) has NOT been re-derived here. Run the audit script against the xlsx to produce the subject ID list.
+- The 74-subject cohort is derived by `build_sample.py` -> `sample.csv` (37 OCD + 37 matched HC, all with ses-1 restEC).
+- Full list of spec-vs-data discrepancies: see `AUDIT.md`.
 
-## Environment (checked)
-- Python 3.10.11 (CLAUDE.md pins 3.14.7).
-- `mne` imports; `shap` is NOT installed. Other pins (sklearn, mne-connectivity, autoreject) not verified.
+## Project venv (rebuilt 2026-11-21)
+`.venv/` in repo (git-ignored), Python 3.14.7 (installed via winget, matches pin). `requirements.txt` is the frozen list.
+All pins in CLAUDE.md match exactly. Added (unpinned in ED): openpyxl, autoreject 0.5.2.

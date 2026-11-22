@@ -1,0 +1,5 @@
+analytic_bands for 74 subjects: 1.2 s, memory 675 MB (complex64)
+plv_features k=19: all 74 subjects in 3.5 s, matrix (2220, 684)
+plv_features k=9: all 74 subjects in 1.2 s, matrix (2220, 144)
+plv_features k=5: all 74 subjects in 0.5 s, matrix (2220, 40)
+plv_features k=3: all 74 subjects in 0.3 s, matrix (2220, 12)

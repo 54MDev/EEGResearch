@@ -1,0 +1,892 @@
+{
+  "fold_held_out": "sub-87961341",
+  "held_out_label_for_reference_only": 0,
+  "config": {
+    "seed": 42,
+    "n_trees": 200,
+    "max_depth": 10,
+    "max_features": "sqrt",
+    "n_jobs": 2,
+    "cpu_count_this_machine": 24,
+    "shap_max_epochs": 300,
+    "inner_val_subjects": 18,
+    "inner_val_ids": [
+      "sub-87958417",
+      "sub-87958957",
+      "sub-87959273",
+      "sub-87959721",
+      "sub-87960265",
+      "sub-87962245",
+      "sub-87974973",
+      "sub-88011157",
+      "sub-88047649",
+      "sub-88057277",
+      "sub-88057461",
+      "sub-88058001",
+      "sub-88058897",
+      "sub-88061193",
+      "sub-88064521",
+      "sub-88067945",
+      "sub-88068981",
+      "sub-88071093"
+    ],
+    "note": "timing is from THIS machine, not the planned AWS m5.large"
+  },
+  "rounds": [
+    {
+      "round": 1,
+      "n_before": 19,
+      "n_after": 18,
+      "removed": "O2",
+      "shap_lowest_candidate": "Cz",
+      "logo_chosen": "O2",
+      "agreed": false,
+      "candidates": [
+        "Cz",
+        "O2",
+        "P7"
+      ],
+      "shap_scores_candidates": {
+        "Cz": 0.03882524977754259,
+        "O2": 0.04406276700876385,
+        "P7": 0.04528843868981431
+      },
+      "inner_auc": {
+        "Cz": 0.8148148148148149,
+        "O2": 0.8395061728395061,
+        "P7": 0.7901234567901234
+      },
+      "seconds": {
+        "shap": 1.46,
+        "logo": 12.05,
+        "retrain_predict": 4.48,
+        "round_total": 17.99
+      }
+    },
+    {
+      "round": 2,
+      "n_before": 18,
+      "n_after": 17,
+      "removed": "Cz",
+      "shap_lowest_candidate": "Cz",
+      "logo_chosen": "Cz",
+      "agreed": true,
+      "candidates": [
+        "Cz",
+        "P7",
+        "P8"
+      ],
+      "shap_scores_candidates": {
+        "Cz": 0.043742537633146776,
+        "P7": 0.046655562143014515,
+        "P8": 0.04689592182699325
+      },
+      "inner_auc": {
+        "Cz": 0.8518518518518519,
+        "P7": 0.8395061728395061,
+        "P8": 0.8395061728395061
+      },
+      "seconds": {
+        "shap": 1.42,
+        "logo": 11.41,
+        "retrain_predict": 4.25,
+        "round_total": 17.08
+      }
+    },
+    {
+      "round": 3,
+      "n_before": 17,
+      "n_after": 16,
+      "removed": "Pz",
+      "shap_lowest_candidate": "Pz",
+      "logo_chosen": "Pz",
+      "agreed": true,
+      "candidates": [
+        "Pz",
+        "P8",
+        "Fz"
+      ],
+      "shap_scores_candidates": {
+        "Pz": 0.04537000257793855,
+        "P8": 0.048512613298431755,
+        "Fz": 0.049058204159286085
+      },
+      "inner_auc": {
+        "Pz": 0.9259259259259259,
+        "P8": 0.8395061728395061,
+        "Fz": 0.8641975308641976
+      },
+      "seconds": {
+        "shap": 1.42,
+        "logo": 10.29,
+        "retrain_predict": 3.89,
+        "round_total": 15.6
+      }
+    },
+    {
+      "round": 4,
+      "n_before": 16,
+      "n_after": 15,
+      "removed": "Fz",
+      "shap_lowest_candidate": "F3",
+      "logo_chosen": "Fz",
+      "agreed": false,
+      "candidates": [
+        "F3",
+        "P8",
+        "Fz"
+      ],
+      "shap_scores_candidates": {
+        "F3": 0.05119148702854858,
+        "P8": 0.05276007617269197,
+        "Fz": 0.05295717733243721
+      },
+      "inner_auc": {
+        "F3": 0.925925925925926,
+        "P8": 0.9382716049382716,
+        "Fz": 1.0
+      },
+      "seconds": {
+        "shap": 1.45,
+        "logo": 9.47,
+        "retrain_predict": 3.43,
+        "round_total": 14.35
+      }
+    },
+    {
+      "round": 5,
+      "n_before": 15,
+      "n_after": 14,
+      "removed": "F3",
+      "shap_lowest_candidate": "P8",
+      "logo_chosen": "F3",
+      "agreed": false,
+      "candidates": [
+        "P8",
+        "F7",
+        "F3"
+      ],
+      "shap_scores_candidates": {
+        "P8": 0.0537545562779712,
+        "F7": 0.055380270898800384,
+        "F3": 0.05600448163016258
+      },
+      "inner_auc": {
+        "P8": 0.9382716049382716,
+        "F7": 0.9382716049382716,
+        "F3": 0.9506172839506173
+      },
+      "seconds": {
+        "shap": 1.47,
+        "logo": 8.46,
+        "retrain_predict": 3.22,
+        "round_total": 13.15
+      }
+    },
+    {
+      "round": 6,
+      "n_before": 14,
+      "n_after": 13,
+      "removed": "C4",
+      "shap_lowest_candidate": "P8",
+      "logo_chosen": "C4",
+      "agreed": false,
+      "candidates": [
+        "P8",
+        "P7",
+        "C4"
+      ],
+      "shap_scores_candidates": {
+        "P8": 0.05061488975329291,
+        "P7": 0.05992041539152199,
+        "C4": 0.061615728855999904
+      },
+      "inner_auc": {
+        "P8": 0.9135802469135803,
+        "P7": 0.9012345679012346,
+        "C4": 0.9382716049382716
+      },
+      "seconds": {
+        "shap": 1.42,
+        "logo": 7.49,
+        "retrain_predict": 2.88,
+        "round_total": 11.8
+      }
+    },
+    {
+      "round": 7,
+      "n_before": 13,
+      "n_after": 12,
+      "removed": "P8",
+      "shap_lowest_candidate": "P8",
+      "logo_chosen": "P8",
+      "agreed": true,
+      "candidates": [
+        "P8",
+        "P7",
+        "F7"
+      ],
+      "shap_scores_candidates": {
+        "P8": 0.051010792619851586,
+        "P7": 0.061640027785297286,
+        "F7": 0.06435455320832746
+      },
+      "inner_auc": {
+        "P8": 0.962962962962963,
+        "P7": 0.9382716049382716,
+        "F7": 0.9259259259259259
+      },
+      "seconds": {
+        "shap": 1.41,
+        "logo": 6.99,
+        "retrain_predict": 2.74,
+        "round_total": 11.14
+      }
+    },
+    {
+      "round": 8,
+      "n_before": 12,
+      "n_after": 11,
+      "removed": "T8",
+      "shap_lowest_candidate": "F7",
+      "logo_chosen": "T8",
+      "agreed": false,
+      "candidates": [
+        "F7",
+        "T8",
+        "P7"
+      ],
+      "shap_scores_candidates": {
+        "F7": 0.05814778355576075,
+        "T8": 0.07319940543468582,
+        "P7": 0.0739313275875175
+      },
+      "inner_auc": {
+        "F7": 0.8888888888888888,
+        "T8": 0.9382716049382717,
+        "P7": 0.9012345679012346
+      },
+      "seconds": {
+        "shap": 1.46,
+        "logo": 6.16,
+        "retrain_predict": 2.38,
+        "round_total": 10.0
+      }
+    },
+    {
+      "round": 9,
+      "n_before": 11,
+      "n_after": 10,
+      "removed": "P4",
+      "shap_lowest_candidate": "P4",
+      "logo_chosen": "P4",
+      "agreed": true,
+      "candidates": [
+        "P4",
+        "F7",
+        "P7"
+      ],
+      "shap_scores_candidates": {
+        "P4": 0.04795918054643365,
+        "F7": 0.06299570756147262,
+        "P7": 0.07680515188320747
+      },
+      "inner_auc": {
+        "P4": 0.9382716049382717,
+        "F7": 0.8765432098765431,
+        "P7": 0.9012345679012346
+      },
+      "seconds": {
+        "shap": 1.46,
+        "logo": 5.55,
+        "retrain_predict": 2.09,
+        "round_total": 9.09
+      }
+    },
+    {
+      "round": 10,
+      "n_before": 10,
+      "n_after": 9,
+      "removed": "C3",
+      "shap_lowest_candidate": "F7",
+      "logo_chosen": "C3",
+      "agreed": false,
+      "candidates": [
+        "F7",
+        "C3",
+        "F4"
+      ],
+      "shap_scores_candidates": {
+        "F7": 0.07080937992476331,
+        "C3": 0.0814777648331398,
+        "F4": 0.08416916458943709
+      },
+      "inner_auc": {
+        "F7": 0.8765432098765432,
+        "C3": 0.962962962962963,
+        "F4": 0.962962962962963
+      },
+      "seconds": {
+        "shap": 1.46,
+        "logo": 5.01,
+        "retrain_predict": 1.87,
+        "round_total": 8.34
+      }
+    },
+    {
+      "round": 11,
+      "n_before": 9,
+      "n_after": 8,
+      "removed": "F4",
+      "shap_lowest_candidate": "F7",
+      "logo_chosen": "F4",
+      "agreed": false,
+      "candidates": [
+        "F7",
+        "F4",
+        "P7"
+      ],
+      "shap_scores_candidates": {
+        "F7": 0.07921362512946954,
+        "F4": 0.09311102984204243,
+        "P7": 0.09338750687219464
+      },
+      "inner_auc": {
+        "F7": 0.8888888888888888,
+        "F4": 0.962962962962963,
+        "P7": 0.925925925925926
+      },
+      "seconds": {
+        "shap": 1.47,
+        "logo": 4.3,
+        "retrain_predict": 1.66,
+        "round_total": 7.42
+      }
+    },
+    {
+      "round": 12,
+      "n_before": 8,
+      "n_after": 7,
+      "removed": "F8",
+      "shap_lowest_candidate": "F8",
+      "logo_chosen": "F8",
+      "agreed": true,
+      "candidates": [
+        "F8",
+        "F7",
+        "P7"
+      ],
+      "shap_scores_candidates": {
+        "F8": 0.06630018497837992,
+        "F7": 0.08749810011057424,
+        "P7": 0.10341170490267045
+      },
+      "inner_auc": {
+        "F8": 0.9876543209876543,
+        "F7": 0.9135802469135802,
+        "P7": 0.962962962962963
+      },
+      "seconds": {
+        "shap": 1.44,
+        "logo": 3.75,
+        "retrain_predict": 1.44,
+        "round_total": 6.63
+      }
+    },
+    {
+      "round": 13,
+      "n_before": 7,
+      "n_after": 6,
+      "removed": "P7",
+      "shap_lowest_candidate": "P7",
+      "logo_chosen": "P7",
+      "agreed": true,
+      "candidates": [
+        "P7",
+        "F7",
+        "T7"
+      ],
+      "shap_scores_candidates": {
+        "P7": 0.10827743783793753,
+        "F7": 0.11107979161462583,
+        "T7": 0.12478029867236808
+      },
+      "inner_auc": {
+        "P7": 0.9259259259259259,
+        "F7": 0.9135802469135802,
+        "T7": 0.7037037037037037
+      },
+      "seconds": {
+        "shap": 1.49,
+        "logo": 3.14,
+        "retrain_predict": 1.15,
+        "round_total": 5.77
+      }
+    },
+    {
+      "round": 14,
+      "n_before": 6,
+      "n_after": 5,
+      "removed": "F7",
+      "shap_lowest_candidate": "F7",
+      "logo_chosen": "F7",
+      "agreed": true,
+      "candidates": [
+        "F7",
+        "T7",
+        "O1"
+      ],
+      "shap_scores_candidates": {
+        "F7": 0.12886029426168147,
+        "T7": 0.1343779173117521,
+        "O1": 0.16644907695380678
+      },
+      "inner_auc": {
+        "F7": 0.9506172839506173,
+        "T7": 0.617283950617284,
+        "O1": 0.9135802469135803
+      },
+      "seconds": {
+        "shap": 1.45,
+        "logo": 2.71,
+        "retrain_predict": 1.02,
+        "round_total": 5.17
+      }
+    },
+    {
+      "round": 15,
+      "n_before": 5,
+      "n_after": 4,
+      "removed": "O1",
+      "shap_lowest_candidate": "T7",
+      "logo_chosen": "O1",
+      "agreed": false,
+      "candidates": [
+        "T7",
+        "O1",
+        "P3"
+      ],
+      "shap_scores_candidates": {
+        "T7": 0.12485179309116383,
+        "O1": 0.18691216369987707,
+        "P3": 0.18931491534297268
+      },
+      "inner_auc": {
+        "T7": 0.7407407407407408,
+        "O1": 0.9876543209876543,
+        "P3": 0.9135802469135803
+      },
+      "seconds": {
+        "shap": 1.51,
+        "logo": 2.15,
+        "retrain_predict": 0.74,
+        "round_total": 4.4
+      }
+    },
+    {
+      "round": 16,
+      "n_before": 4,
+      "n_after": 3,
+      "removed": "Fp1",
+      "shap_lowest_candidate": "T7",
+      "logo_chosen": "Fp1",
+      "agreed": false,
+      "candidates": [
+        "T7",
+        "Fp1",
+        "P3"
+      ],
+      "shap_scores_candidates": {
+        "T7": 0.12800367198733803,
+        "Fp1": 0.2149675726577573,
+        "P3": 0.23525234299862124
+      },
+      "inner_auc": {
+        "T7": 0.7160493827160493,
+        "Fp1": 0.9753086419753086,
+        "P3": 0.6419753086419753
+      },
+      "seconds": {
+        "shap": 1.39,
+        "logo": 1.8,
+        "retrain_predict": 0.63,
+        "round_total": 3.83
+      }
+    }
+  ],
+  "predictions": [
+    {
+      "n_electrodes": 19,
+      "electrodes": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "n_features": 684,
+      "held_out_prob": 0.5000051202226169
+    },
+    {
+      "n_electrodes": 18,
+      "electrodes": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1"
+      ],
+      "n_features": 612,
+      "held_out_prob": 0.48616013181340867
+    },
+    {
+      "n_electrodes": 17,
+      "electrodes": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1"
+      ],
+      "n_features": 544,
+      "held_out_prob": 0.5235220844206682
+    },
+    {
+      "n_electrodes": 16,
+      "electrodes": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "P4",
+        "P8",
+        "O1"
+      ],
+      "n_features": 480,
+      "held_out_prob": 0.4762628527739696
+    },
+    {
+      "n_electrodes": 15,
+      "electrodes": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "P4",
+        "P8",
+        "O1"
+      ],
+      "n_features": 420,
+      "held_out_prob": 0.4799950072309428
+    },
+    {
+      "n_electrodes": 14,
+      "electrodes": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "P4",
+        "P8",
+        "O1"
+      ],
+      "n_features": 364,
+      "held_out_prob": 0.5133208999307667
+    },
+    {
+      "n_electrodes": 13,
+      "electrodes": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "T8",
+        "P7",
+        "P3",
+        "P4",
+        "P8",
+        "O1"
+      ],
+      "n_features": 312,
+      "held_out_prob": 0.5410177629641301
+    },
+    {
+      "n_electrodes": 12,
+      "electrodes": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "T8",
+        "P7",
+        "P3",
+        "P4",
+        "O1"
+      ],
+      "n_features": 264,
+      "held_out_prob": 0.5818050486404632
+    },
+    {
+      "n_electrodes": 11,
+      "electrodes": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "P7",
+        "P3",
+        "P4",
+        "O1"
+      ],
+      "n_features": 220,
+      "held_out_prob": 0.5604984473245443
+    },
+    {
+      "n_electrodes": 10,
+      "electrodes": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "P7",
+        "P3",
+        "O1"
+      ],
+      "n_features": 180,
+      "held_out_prob": 0.6008364491084427
+    },
+    {
+      "n_electrodes": 9,
+      "electrodes": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F4",
+        "F8",
+        "T7",
+        "P7",
+        "P3",
+        "O1"
+      ],
+      "n_features": 144,
+      "held_out_prob": 0.6133905141297333
+    },
+    {
+      "n_electrodes": 8,
+      "electrodes": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F8",
+        "T7",
+        "P7",
+        "P3",
+        "O1"
+      ],
+      "n_features": 112,
+      "held_out_prob": 0.608071877185809
+    },
+    {
+      "n_electrodes": 7,
+      "electrodes": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "T7",
+        "P7",
+        "P3",
+        "O1"
+      ],
+      "n_features": 84,
+      "held_out_prob": 0.5758134597279676
+    },
+    {
+      "n_electrodes": 6,
+      "electrodes": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "T7",
+        "P3",
+        "O1"
+      ],
+      "n_features": 60,
+      "held_out_prob": 0.6025086625733744
+    },
+    {
+      "n_electrodes": 5,
+      "electrodes": [
+        "Fp1",
+        "Fp2",
+        "T7",
+        "P3",
+        "O1"
+      ],
+      "n_features": 40,
+      "held_out_prob": 0.5965518819966333
+    },
+    {
+      "n_electrodes": 4,
+      "electrodes": [
+        "Fp1",
+        "Fp2",
+        "T7",
+        "P3"
+      ],
+      "n_features": 24,
+      "held_out_prob": 0.7341641767837948
+    },
+    {
+      "n_electrodes": 3,
+      "electrodes": [
+        "Fp2",
+        "T7",
+        "P3"
+      ],
+      "n_features": 12,
+      "held_out_prob": 0.7097031194993766
+    }
+  ],
+  "mismatches": [
+    {
+      "fold": "sub-87961341",
+      "round": 1,
+      "electrode": "O2",
+      "shap_lowest": "Cz"
+    },
+    {
+      "fold": "sub-87961341",
+      "round": 4,
+      "electrode": "Fz",
+      "shap_lowest": "F3"
+    },
+    {
+      "fold": "sub-87961341",
+      "round": 5,
+      "electrode": "F3",
+      "shap_lowest": "P8"
+    },
+    {
+      "fold": "sub-87961341",
+      "round": 6,
+      "electrode": "C4",
+      "shap_lowest": "P8"
+    },
+    {
+      "fold": "sub-87961341",
+      "round": 8,
+      "electrode": "T8",
+      "shap_lowest": "F7"
+    },
+    {
+      "fold": "sub-87961341",
+      "round": 10,
+      "electrode": "C3",
+      "shap_lowest": "F7"
+    },
+    {
+      "fold": "sub-87961341",
+      "round": 11,
+      "electrode": "F4",
+      "shap_lowest": "F7"
+    },
+    {
+      "fold": "sub-87961341",
+      "round": 15,
+      "electrode": "O1",
+      "shap_lowest": "T7"
+    },
+    {
+      "fold": "sub-87961341",
+      "round": 16,
+      "electrode": "Fp1",
+      "shap_lowest": "T7"
+    }
+  ],
+  "summary": {
+    "total_wall_clock_s": 167.6,
+    "loop_s": 166.4,
+    "load_and_analytic_s": 1.1,
+    "total_rf_fits": 65,
+    "total_shap_runs": 16,
+    "n_rounds": 16,
+    "n_predictions": 17,
+    "n_mismatches": 9,
+    "exceeded_15_min": false
+  }
+}

@@ -1,0 +1,28 @@
+round  1: 19->18 removed  O2 (SHAP lowest Cz, agree=False) 19.7s
+round  2: 18->17 removed  Cz (SHAP lowest Cz, agree=True) 17.6s
+round  3: 17->16 removed  Pz (SHAP lowest Pz, agree=True) 14.7s
+round  4: 16->15 removed  Fz (SHAP lowest F3, agree=False) 13.8s
+round  5: 15->14 removed  F3 (SHAP lowest P8, agree=False) 12.9s
+round  6: 14->13 removed  C4 (SHAP lowest P8, agree=False) 11.7s
+round  7: 13->12 removed  P8 (SHAP lowest P8, agree=True) 10.8s
+round  8: 12->11 removed  T8 (SHAP lowest F7, agree=False) 9.7s
+round  9: 11->10 removed  P4 (SHAP lowest P4, agree=True) 9.1s
+round 10: 10->9 removed  C3 (SHAP lowest F7, agree=False) 8.2s
+round 11: 9->8 removed  F4 (SHAP lowest F7, agree=False) 7.3s
+round 12: 8->7 removed  F8 (SHAP lowest F8, agree=True) 6.7s
+round 13: 7->6 removed  P7 (SHAP lowest P7, agree=True) 5.8s
+round 14: 6->5 removed  F7 (SHAP lowest F7, agree=True) 5.1s
+round 15: 5->4 removed  O1 (SHAP lowest T7, agree=False) 4.4s
+round 16: 4->3 removed Fp1 (SHAP lowest T7, agree=False) 3.7s
+{
+  "total_wall_clock_s": 167.7,
+  "loop_s": 166.5,
+  "load_and_analytic_s": 1.2,
+  "total_rf_fits": 65,
+  "total_shap_runs": 16,
+  "n_rounds": 16,
+  "n_predictions": 17,
+  "n_mismatches": 9,
+  "exceeded_15_min": false
+}
+wrote C:\Users\Sam\Documents\GitHub\EEGResearch\logs\onefold_sub-87961341.json

@@ -1,0 +1,9 @@
+PASS counts: 19->684, 9->144, 5->40, 3->12
+PASS sanity: locked alpha PLV=0.85, unrelated=0.31
+PASS CAR equivalence: time-domain montage CAR == complex-domain montage CAR
+PASS leak check: reusing 19-ch CAR differs from correct per-montage CAR (max abs diff 0.463); plv_features is idempotent to prior referencing
+PASS groups: each of 5 electrodes touches 16 features; every feature counted twice
+PASS real subject sub-87957881: k=19 shape=(30, 684) PLV range [0.00, 0.99] mean 0.39
+PASS real subject sub-87957881: k=9 shape=(30, 144) PLV range [0.01, 0.98] mean 0.40
+PASS real subject sub-87957881: k=5 shape=(30, 40) PLV range [0.02, 0.99] mean 0.44
+PASS real subject sub-87957881: k=3 shape=(30, 12) PLV range [0.05, 0.98] mean 0.51

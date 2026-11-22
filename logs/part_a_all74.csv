@@ -1,0 +1,75 @@
+subject,label,n_epochs_total,n_epochs_clean,n_epochs_kept,excluded_lt_20,ica_converged,ica_removed,seconds
+sub-87961341,0,60,59,30,False,True,0 5 7,1.1
+sub-88058317,1,60,59,30,False,True,0 1,0.7
+sub-87960573,0,60,59,30,False,True,0,0.8
+sub-88074917,1,60,60,30,False,True,0 1,1.0
+sub-87974709,0,60,60,30,False,True,0 1,0.9
+sub-88061193,1,60,60,30,False,True,0 10,1.0
+sub-87958057,0,60,56,30,False,True,0 12,1.0
+sub-88057277,1,60,60,30,False,True,0 4,0.9
+sub-87958105,0,60,58,30,False,True,0 1 2,0.8
+sub-88062813,1,60,47,30,False,True,0 2,0.8
+sub-88008997,0,60,56,30,False,True,0,0.7
+sub-88065381,1,60,60,30,False,True,0 1,0.8
+sub-87974665,0,60,60,30,False,True,0 1 4,0.8
+sub-88071093,1,60,57,30,False,True,0 5,0.9
+sub-87974973,0,60,60,30,False,True,0,0.7
+sub-88052957,1,60,60,30,False,True,0 1,0.9
+sub-87958957,0,60,60,30,False,True,0 1,0.8
+sub-88067945,1,60,60,30,False,True,0 1 11,0.8
+sub-88059397,0,60,60,30,False,True,0,0.9
+sub-88066641,1,60,60,30,False,True,0,1.1
+sub-87959229,0,60,60,30,False,True,0 6 13,0.8
+sub-88054225,1,60,60,30,False,True,0 1 14,0.8
+sub-87960265,0,60,60,30,False,True,0 1 4,23.3
+sub-88062905,1,60,55,30,False,True,0 1,1.4
+sub-88051073,0,60,60,30,False,True,0 1,0.9
+sub-88053677,1,60,42,30,False,True,0 2,0.9
+sub-87958509,0,60,60,30,False,True,0,0.9
+sub-88058897,1,60,60,30,False,True,0,1.2
+sub-87958645,0,60,60,30,False,True,0,0.9
+sub-88076717,1,60,50,30,False,True,0 2,1.0
+sub-87959273,0,60,60,30,False,True,0 2,0.9
+sub-88066413,1,60,60,30,False,True,0 4,0.9
+sub-87961973,0,60,55,30,False,True,0,0.9
+sub-88053497,1,60,60,30,False,True,0 1 2,1.5
+sub-87959137,0,60,59,30,False,True,0 1,1.1
+sub-88064521,1,60,59,30,False,True,0 8,0.9
+sub-87960169,0,60,60,30,False,True,0,0.9
+sub-88057681,1,60,60,30,False,True,0 7,1.0
+sub-88058001,0,60,60,30,False,True,0 2 5,0.8
+sub-88066457,1,60,52,30,False,True,0 12,0.7
+sub-87959005,0,60,59,30,False,True,0 1 5,0.9
+sub-88011157,1,60,60,30,False,True,0 7,0.8
+sub-87962245,0,60,60,30,False,True,0,0.9
+sub-88076181,1,60,60,30,False,True,0 1 3,0.8
+sub-87959317,0,60,58,30,False,True,0 1 4,0.8
+sub-88073885,1,60,60,30,False,True,0,0.9
+sub-87958417,0,60,58,30,False,True,0 1 2,0.8
+sub-88067901,1,60,60,30,False,True,0 1,0.8
+sub-88048729,0,60,58,30,False,True,0,0.9
+sub-88068981,1,60,59,30,False,True,0,0.9
+sub-87957969,0,60,60,30,False,True,0,0.8
+sub-88062949,1,60,57,30,False,True,0 11,0.9
+sub-88057461,0,60,60,30,False,True,0 5,0.8
+sub-88063713,1,60,55,30,False,True,0 1 6,0.9
+sub-87958601,0,60,60,30,False,True,0 2 4,1.0
+sub-88047649,1,60,60,30,False,True,0 1 8,0.8
+sub-87962469,0,60,60,30,False,True,0 1 2,0.9
+sub-88013761,1,60,60,30,False,True,0 9,0.9
+sub-87959721,0,60,53,30,False,True,0 3,0.8
+sub-88061149,1,60,58,30,False,True,0,0.8
+sub-87957881,0,60,60,30,False,True,0 1 2 13,0.7
+sub-88056557,1,60,60,30,False,True,0 3,0.8
+sub-87958013,0,60,57,30,False,True,0 2,0.8
+sub-88073745,1,60,55,30,False,True,0,0.9
+sub-87963821,0,60,60,30,False,True,0 5,0.8
+sub-88056649,1,60,60,30,False,True,0 2 9,0.9
+sub-88053453,0,60,60,30,False,True,0,0.8
+sub-88053817,1,60,59,30,False,True,0 9,0.9
+sub-87964401,0,60,60,30,False,True,0 1,0.7
+sub-88065153,1,60,58,30,False,True,0,0.9
+sub-87971381,0,60,58,30,False,True,0,0.8
+sub-88048193,1,60,55,30,False,True,0 5,0.8
+sub-88055121,0,60,58,30,False,True,0 7,0.8
+sub-88064253,1,60,60,30,False,True,0 3 10,0.8
